@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendário Mensal com Feriados</title>
+  <link rel="icon" href="img/images.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="calendar-container">
+  <div id="calendar-header">
+    <button id="previousMonth">❮</button>
+    <h2 id="month-year"></h2>
+    <button id="nextMonth">❯</button>
+  </div>
+
+  <table id="calendar">
+    <thead>
+      <tr>
+        <th>Domingo</th>
+        <th>Segunda-feira</th>
+        <th>Terça-feira</th>
+        <th>Quarta-feira</th>
+        <th>Quinta-feira</th>
+        <th>Sexta-feira</th>
+        <th>Sábado</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<div id="popover" class="popover"></div>
+
+<div id="loading">
+  <img src="img/loading.gif" alt="Loading...">
+</div>
+
+<div id="error-message">
+  Ocorreu um erro ao carregar os feriados. Por favor, tente novamente mais tarde.
+</div>
+
+<script src="js/default.js"></script>
+
+</body>
+</html>
